@@ -1,9 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package repositorio;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  *
@@ -11,11 +9,14 @@ package repositorio;
  */
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
+    private static final String TEXT_TO_SHARE = "Hola estoy compartiendo desde un repositorio undec. Estoy probando Dependencia" +
+                " utilizando un ejemplo de intercambio social. ";
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+         final ApplicationContext ctx = new ClassPathXmlApplicationContext("META-INF/spring/app-context.xml");
+        
+        MobilePhone mobilePhone = ctx.getBean("mobilePhone", MobilePhone.class);
+        mobilePhone.share(TEXT_TO_SHARE);
     }
     
 }
