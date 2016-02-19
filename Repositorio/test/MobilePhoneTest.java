@@ -14,5 +14,16 @@ public class MobilePhoneTest {
     public MobilePhoneTest() {
     }
     
+    @Test
+    public void x()
+    {
+        SocialSharer sharer = mock(SocialSharer.class);
+        when(sharer.isLogger()).thenReturn(Boolean.TRUE);
+        
+        MobilePhone mobile = new MobilePhone(sharer);
+        assertTrue(mobile.isLogged());
+        
+        verify(sharer).isLogger();
+    }
     
 }
