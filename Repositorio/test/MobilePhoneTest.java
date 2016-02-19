@@ -26,13 +26,4 @@ public class MobilePhoneTest {
         verify(sharer).isLogger();
     }
     
-    @Test
-    public void x2()
-    {
-        SocialSharer sharer = mock(SocialSharer.class);        
-        MobilePhone mobile = new MobilePhone(sharer);
-        
-        mobile.share("emmanuel");
-        verify(sharer).share("emmanuel");
-    }
 }
