@@ -6,7 +6,7 @@ package repositorio;
  * @author Emmanuel
  */
 public class MobilePhone {
-    private SocialSharer socialSharer;
+    private final SocialSharer socialSharer;
 
     public MobilePhone(SocialSharer socialSharer) {
         this.socialSharer = socialSharer;

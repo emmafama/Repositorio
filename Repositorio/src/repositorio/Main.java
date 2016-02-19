@@ -10,7 +10,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Main {
 
     private static final String TEXT_TO_SHARE = "Hola estoy compartiendo desde un repositorio undec. Estoy probando Dependencia" +
-                " utilizando un ejemplo de intercambio social. ";
+                " utilizando un ejemplo de intercambio social.vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvx";
     
     public static void main(String[] args) {
          final ApplicationContext ctx = new ClassPathXmlApplicationContext("META-INF/spring/app-context.xml");
