@@ -17,7 +17,7 @@ public class Main {
          final ApplicationContext ctx = new ClassPathXmlApplicationContext("META-INF/spring/app-context.xml");
         
         MobilePhone mobilePhone = ctx.getBean("mobilePhone", MobilePhone.class);
-        mobilePhone.share(TEXT_TO_SHARE);
+        mobilePhone.share(TEXT_TO_SHARE)
     }
     
 }
