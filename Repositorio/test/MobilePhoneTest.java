@@ -24,6 +24,7 @@ public class MobilePhoneTest {
         assertTrue(mobile.isLogged());
         
         verify(sharer).isLogger();
+        System.out.println("test01");
     }
     
     @Test
@@ -34,5 +35,7 @@ public class MobilePhoneTest {
         
         mobile.share("emmanuel");
         verify(sharer).share("emmanuel");
+        
+        System.out.println("test02");
     }
 }
