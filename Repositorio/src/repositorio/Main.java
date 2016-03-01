@@ -6,7 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 /**
  * 
  * 
- * @author Emmanuel
+ * @author Emmanuel :)
  */
 
 public class Main {
