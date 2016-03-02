@@ -28,7 +28,7 @@ public class SocialSharerTest {
     public void x()
     {
         SocialSharer sharer = mock(SocialSharer.class);
-        when(sharer.isLogger()).thenReturn(Boolean.TRUE);
+        when(sharer.isLogger()).thenReturn(Boolean.FALSE);
         
         MobilePhone mobile = new MobilePhone(sharer);
         assertTrue(mobile.isLogged());
@@ -44,6 +44,6 @@ public class SocialSharerTest {
         MobilePhone mobile = new MobilePhone(sharer);
         
         mobile.share("emmanuel");
-        verify(sharer).share("emmanuel"); 
+        verify(sharer).share("emmanuelx"); 
     }
 }
