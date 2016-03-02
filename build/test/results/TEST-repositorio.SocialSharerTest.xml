@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="1" hostname="Emmanuel" name="repositorio.SocialSharerTest" skipped="0" tests="3" time="0.281" timestamp="2016-03-02T21:55:11">
+<testsuite errors="0" failures="0" hostname="Emmanuel" name="repositorio.SocialSharerTest" skipped="0" tests="3" time="0.254" timestamp="2016-03-02T21:57:57">
   <properties>
     <property name="libs.jsp-compiler.javadoc" value="" />
     <property name="netbeans.autoupdate.country" value="ES" />
@@ -64,7 +64,7 @@
     <property name="libs.j2me_common_ant.maven-pom" value="" />
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner repositorio.SocialSharerTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Emmanuel\Repositorio\Repositorio\build\test\results\TEST-repositorio.SocialSharerTest.xml crashfile=C:\Users\Emmanuel\Repositorio\Repositorio\build\junitvmwatcher6861829138337882263.properties propsfile=C:\Users\Emmanuel\Repositorio\Repositorio\build\junit2844213419345366726.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner repositorio.SocialSharerTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Emmanuel\Repositorio\Repositorio\build\test\results\TEST-repositorio.SocialSharerTest.xml crashfile=C:\Users\Emmanuel\Repositorio\Repositorio\build\junitvmwatcher1114213802641906330.properties propsfile=C:\Users\Emmanuel\Repositorio\Repositorio\build\junit4635995675047631497.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="jnlp.descriptor" value="application" />
@@ -429,20 +429,9 @@
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
     <property name="libs.javaee-web-api-7.0.javadoc" value="C:\Program Files\NetBeans 8.0.1\enterprise\docs\javaee-doc-api.jar" />
   </properties>
-  <testcase classname="repositorio.SocialSharerTest" name="x" time="0.182" />
+  <testcase classname="repositorio.SocialSharerTest" name="x" time="0.169" />
+  <testcase classname="repositorio.SocialSharerTest" name="x2" time="0.0" />
   <testcase classname="repositorio.SocialSharerTest" name="testSomeMethod" time="0.0" />
-  <testcase classname="repositorio.SocialSharerTest" name="x2" time="0.015">
-    <failure message="&#xa;Argument(s) are different! Wanted:&#xa;socialSharer.share(&quot;emmanuel&quot;);&#xa;-&gt; at repositorio.SocialSharerTest.x2(SocialSharerTest.java:47)&#xa;Actual invocation has different arguments:&#xa;socialSharer.share(&quot;emmanuelx&quot;);&#xa;-&gt; at repositorio.MobilePhone.share(MobilePhone.java:17)&#xa;" type="org.mockito.exceptions.verification.junit.ArgumentsAreDifferent">Argument(s) are different! Wanted:
-socialSharer.share(&quot;emmanuel&quot;);
--&gt; at repositorio.SocialSharerTest.x2(SocialSharerTest.java:47)
-Actual invocation has different arguments:
-socialSharer.share(&quot;emmanuelx&quot;);
--&gt; at repositorio.MobilePhone.share(MobilePhone.java:17)
-
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at repositorio.SocialSharerTest.x2(SocialSharerTest.java:47)
-</failure>
-  </testcase>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
