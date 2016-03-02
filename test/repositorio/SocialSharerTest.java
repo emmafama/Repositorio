@@ -43,7 +43,7 @@ public class SocialSharerTest {
         SocialSharer sharer = mock(SocialSharer.class);        
         MobilePhone mobile = new MobilePhone(sharer);
         
-        mobile.share("emmanuel");
+        mobile.share("emmanuelx");
         verify(sharer).share("emmanuel"); 
     }
 }
