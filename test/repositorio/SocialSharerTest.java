@@ -1,17 +1,27 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package repositorio;
 
-import repositorio.MobilePhone;
-import repositorio.SocialSharer;
 import org.junit.Test;
-import static org.mockito.Mockito.*;
 import static org.junit.Assert.*;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
 
 /**
  *
  * @author Emmanuel
  */
-public class MobilePhoneTest {
+public class SocialSharerTest {
     
-    public MobilePhoneTest() {
+    public SocialSharerTest() {
+    }
+
+    @Test
+    public void testSomeMethod() {
     }
     
     @Test
