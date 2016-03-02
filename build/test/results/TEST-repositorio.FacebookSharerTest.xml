@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Emmanuel" name="MobilePhoneTest" skipped="0" tests="2" time="0.368" timestamp="2016-03-02T21:13:31">
+<testsuite errors="0" failures="0" hostname="Emmanuel" name="repositorio.FacebookSharerTest" skipped="0" tests="1" time="0.1" timestamp="2016-03-02T21:13:32">
   <properties>
     <property name="libs.jsp-compiler.javadoc" value="" />
     <property name="netbeans.autoupdate.country" value="ES" />
@@ -64,7 +64,7 @@
     <property name="libs.j2me_common_ant.maven-pom" value="" />
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner MobilePhoneTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Emmanuel\Repositorio\Repositorio\build\test\results\TEST-MobilePhoneTest.xml crashfile=C:\Users\Emmanuel\Repositorio\Repositorio\build\junitvmwatcher1842028394612407902.properties propsfile=C:\Users\Emmanuel\Repositorio\Repositorio\build\junit4497029164447821130.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner repositorio.FacebookSharerTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Emmanuel\Repositorio\Repositorio\build\test\results\TEST-repositorio.FacebookSharerTest.xml crashfile=C:\Users\Emmanuel\Repositorio\Repositorio\build\junitvmwatcher7080488800563998935.properties propsfile=C:\Users\Emmanuel\Repositorio\Repositorio\build\junit8480039448488425648.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="jnlp.descriptor" value="application" />
@@ -430,10 +430,7 @@
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
     <property name="libs.javaee-web-api-7.0.javadoc" value="C:\Program Files\NetBeans 8.0.1\enterprise\docs\javaee-doc-api.jar" />
   </properties>
-  <testcase classname="MobilePhoneTest" name="x" time="0.248" />
-  <testcase classname="MobilePhoneTest" name="x2" time="0.016" />
-  <system-out><![CDATA[test01
-test02
-]]></system-out>
+  <testcase classname="repositorio.FacebookSharerTest" name="testSomeMethod" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
